@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Elsie&display=swap');
 /* Selection color */
 ::selection {
     background-color: #028090;
@@ -15,7 +13,7 @@ html, body{
 /* Heading styles */
 h1, h2, h3, h4, h5, h6{
     color: #222;
-    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Elsie', cursive;
 }
 
 /* Scaled font sizes */
@@ -33,8 +31,8 @@ h1 > .subtitle{
 /* Normal text style(including code) */
 p, pre, ol, ul, table{
     color: #444;
-    font-family: 'Satisfy', cursive;
     font-size: 17.19px;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman"
 }
 
 /* Better anchor tags */
