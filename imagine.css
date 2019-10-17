@@ -56,6 +56,7 @@ a:hover{
    padding: 2vh 5vw;
 }
 
+
 /* Responsive images */
 img{
     max-width: 100%;
@@ -63,10 +64,11 @@ img{
 }
 
 /* Responsive code blocks */
-pre{
+pre, .outline-text-2, .outline-text-3, outline-text-4{
     max-width: 100%;
     overflow-x: auto;
 }
+
 
 /* Responsive content positioning */
 @media only screen and (min-width: 750px) /* Large screens */
