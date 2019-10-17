@@ -2,6 +2,7 @@
 #+OPTIONS: toc:nil num:nil html-style:nil
 
 #+Title: Imagine
+#+SUBTITLE: Org mode meets professional web design
 
 * Welcome to Imagine.
 

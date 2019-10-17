@@ -26,6 +26,10 @@ h3{font-size: 17.19px;}
 h4{font-size: 17.19px;}
 h5{font-size: 17.19px;}
 
+h1 > .subtitle{
+    font-size: 21.48px;
+}
+
 /* Normal text style(including code) */
 p, pre, ol, ul, table{
     color: #444;
@@ -63,7 +67,7 @@ img{
     height: auto;
 }
 
-/* Responsive code blocks */
+/* Responsive code blocks and tables */
 pre, .outline-text-2, .outline-text-3, outline-text-4{
     max-width: 100%;
     overflow-x: auto;
