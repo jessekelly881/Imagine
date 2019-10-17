@@ -1,7 +1,4 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css" />
-
-#+HTML_HEAD: <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
-
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil num:nil html-style:nil
 
 #+Title: Imagine

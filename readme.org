@@ -1,0 +1,14 @@
+* What is Imagine?
+
+Imagine is a clean and creative single page theme designed for org mode exports. It currently supports latex, code blocks, lists, and tables.
+
+To see imagine live see:
+[[http://jessekelly881-imagine.surge.sh/][Imagine]]
+
+
+* How to use
+
+To use Imagine copy the imagine.css file into the folder you want to use it and them add the following headers to your org mode document:
+
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil num:nil html-style:nil
