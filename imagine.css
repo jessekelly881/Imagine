@@ -101,3 +101,11 @@ blockquote{
     border-left:5px solid #028090;
     padding-left: 10px;
 }
+
+.todo{
+    color: red;
+}
+
+.done{
+    color: #028090;
+}

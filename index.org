@@ -68,3 +68,11 @@ Insanity: doing the same thing over and over again and expecting different resul
 
 Albert Einstein
  #+END_QUOTE
+
+** Checkboxes
+
+- [X] Checked
+- [ ] Unchecked
+
+** TODO An item that needs done
+** DONE An item that is done
