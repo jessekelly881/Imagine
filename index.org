@@ -36,7 +36,7 @@ To use Imagine simply include the following org headers:
 [[https://www.snapoye.com/ArtShop/wp-content/uploads/2019/03/cari1.jpeg]]
 
 
-** Tables
+** Tables(Which are responsive!)
 
 |   |  N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |      Sum |
 |---+----+-----+-----+-----+---------+------------+----------|
