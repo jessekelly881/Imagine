@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
+/* Selection color */
+::selection {
+    background-color: #028090;
+    color: white;
+}
+
 /* Remove outer padding */
 html, body{
     margin: 0;
@@ -33,7 +39,7 @@ a{
 }
 
 a:hover{
-    color: skyblue;
+    color: #028090;
 }
 
 /* Force footer to bottom and center */
@@ -89,7 +95,7 @@ pre{
 }
 
 .org-org-meta-line{
-    color: #02C39A;
+    color: #028090;
 }
 blockquote{
     border-left:5px solid #028090;
