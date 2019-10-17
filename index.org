@@ -1,0 +1,66 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css" />
+
+#+HTML_HEAD: <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
+
+#+OPTIONS: toc:nil num:nil html-style:nil
+
+#+Title: Imagine
+
+* Welcome to Imagine.
+
+Imagine is a css blog theme designed to work seamlessly with org mode. Imagine is clean and creative.
+
+To use Imagine simply include the following org headers:
+
+#+BEGIN_SRC org
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css" />
+#+OPTIONS: toc:nil num:nil html-style:nil
+#+END_SRC
+
+* Imagine supports...
+
+** Ordered lists
+
+1. A
+2. B
+3. C
+
+** Unordered lists
+- A
+- B
+- C
+
+** Links
+
+[[https://www.google.com][www.google.com]]
+
+
+** Images(Which are responsive!)
+[[https://www.snapoye.com/ArtShop/wp-content/uploads/2019/03/cari1.jpeg]]
+
+
+** Tables
+
+| Name  | Phone | Age |
+|-------+-------+-----|
+| Peter |  1234 |  17 |
+| Anna  |  4321 |  25 |
+
+
+** Latex
+
+$$\int_{a}^{b} x^2 dx$$
+
+** Code
+
+#+BEGIN_SRC python :results output
+  def fact(n):
+      "Returns the factorial of a number"
+      if(n <= 1): return 1
+      else: return n*fact(n-1)
+
+  print(fact(3))
+#+END_SRC
+
+#+RESULTS:
+: 6

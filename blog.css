@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+/* Remove outer padding */
+html, body{
+    margin: 0;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6{
+    color: #222;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+/* Scaled font sizes */
+h1{font-size: 33.57px;}
+h2{font-size: 26.86px;}
+h3{font-size: 21.48px;}
+h3{font-size: 17.19px;}
+h4{font-size: 17.19px;}
+h5{font-size: 17.19px;}
+
+/* Normal text style(including code) */
+p, pre, ol, ul, table{
+    color: #444;
+    font-family: 'Satisfy', cursive;
+    font-size: 17.19px;
+}
+
+/* Better anchor tags */
+a{
+    color: inherit;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+/* Force footer to bottom and center */
+#postamble{
+    text-align: center;
+    width: 100%;
+}
+
+#postamble > p{
+    display: inline;
+}
+
+.title{
+   padding: 2vh 5vw;
+}
+
+/* Responsive images */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive code blocks */
+pre{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Responsive content positioning */
+@media only screen and (min-width: 750px) /* Large screens */
+{
+    .outline-2{
+        padding: 2vh 20vw;
+    }
+
+}
+
+@media only screen and (max-width: 750px) /* Small screens */
+{
+    .outline-2{
+        padding: 2vh 5vw;
+    }
+}
+
+
+/* Code blocks */
+.org-keyword{
+    color: #028090;
+}
+
+.org-rainbow-delimiters-depth-1{
+    color: #028090;
+}
+
+.org-org-meta-line{
+    color: #02C39A;
+}
