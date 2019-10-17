@@ -10,5 +10,7 @@ To see imagine live see:
 
 To use Imagine copy the imagine.css file into the folder you want to use it and them add the following headers to your org mode document:
 
+#+BEGIN_SRC org
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil num:nil html-style:nil
+#+END_SRC
