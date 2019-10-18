@@ -113,3 +113,22 @@ blockquote{
 .done{
     color: #028090;
 }
+
+.tag{
+    margin-top: 5px;
+    display: block;
+    color: #FFFFF0;
+    font-size: 11px;
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";
+
+}
+
+.tag > span{
+    background-color: #00A896;
+    text-transform: uppercase;
+    border-radius: 2px;
+    width: fit-content;
+    height: auto;
+    padding: 1px 5px;
+    margin: 1px;
+}
