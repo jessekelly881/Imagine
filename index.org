@@ -15,6 +15,10 @@ To use Imagine simply include the following org headers:
 #+OPTIONS: toc:nil num:nil html-style:nil
 #+END_SRC
 
+** Learn more
+
+To learn more about Imagine and what I(Jesse Kelly) do feel free to check out my blog at [[jessekelly.tk][jessekelly.tk]] or my [[github.com/jessekelly881][Github Page]].
+
 * Imagine supports...
 
 ** Ordered lists
@@ -30,7 +34,7 @@ To use Imagine simply include the following org headers:
 
 ** Links
 
-[[https://www.google.com][www.google.com]]
+[[jessekelly.tk][My Blog]]
 
 
 ** Images(Which are responsive!)
