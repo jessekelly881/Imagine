@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Elsie&display=swap');
+
+/* Variables. Feel free to edit these! */
+:root {
+    --color-primary: #028090;
+    --color-secondary: #00A896;
+
+    --color-soft-white: #FFFFF0;
+
+    --color-soft-black: #444;
+    --color-hard-black: #222;
+
+    --color-special-todo: #790604;
+
+    --font-normal: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";
+    --font-headings: 'Elsie', cursive;
+}
+
 /* Selection color */
 ::selection {
-    background-color: #028090;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-soft-white);
 }
 
 /* Remove outer padding */
@@ -12,8 +29,8 @@ html, body{
 
 /* Heading styles */
 h1, h2, h3, h4, h5, h6{
-    color: #222;
-    font-family: 'Elsie', cursive;
+    color: var(--color-hard-black);
+    font-family: var(--font-headings)
 }
 
 /* Scaled font sizes */
@@ -32,7 +49,7 @@ h1 > .subtitle{
 p, pre, ol, ul, table{
     color: #444;
     font-size: 17.19px;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman"
+    font-family: var(--font-normal)
 }
 
 /* Better anchor tags */
@@ -41,7 +58,7 @@ a{
 }
 
 a:hover{
-    color: #028090;
+    color: var(--color-secondary);
 }
 
 /* Force footer to bottom and center */
@@ -91,27 +108,27 @@ pre, .outline-text-2, .outline-text-3, outline-text-4{
 
 /* Code blocks */
 .org-keyword{
-    color: #028090;
+    color: var(--color-primary);
 }
 
 .org-rainbow-delimiters-depth-1{
-    color: #028090;
+    color: var(--color-secondary);
 }
 
 .org-org-meta-line{
-    color: #028090;
+    color: var(--color-primary);
 }
 blockquote{
-    border-left:5px solid #028090;
+    border-left:5px solid var(--color-primary);
     padding-left: 10px;
 }
 
 .todo{
-    color: red;
+    color: var(--color-special-todo);
 }
 
 .done{
-    color: #028090;
+    color: var(--color-primary);
 }
 
 /* Tags.
@@ -124,14 +141,14 @@ blockquote{
 .tag{
     margin-top: 5px;
     display: block;
-    color: #FFFFF0;
+    color: var(--color-soft-white);
     font-size: 11px;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";
+    font-family: var(--font-normal)
 
 }
 
 .tag > span{
-    background-color: #00A896;
+    background-color: var(--color-secondary);
     text-transform: uppercase;
     border-radius: 2px;
     width: fit-content;
