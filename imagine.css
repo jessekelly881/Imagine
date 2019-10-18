@@ -114,6 +114,13 @@ blockquote{
     color: #028090;
 }
 
+/* Tags.
+   The way org exports tags is a little strange.
+   They are exported as a span with class "tag" containing each
+   of the tags in its own span with class and contents equal to
+   the tags name. This is actually really useful as it allows
+   for targeting both the "tag group" and each tag individually */
+
 .tag{
     margin-top: 5px;
     display: block;
