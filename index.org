@@ -17,7 +17,7 @@ To use Imagine simply include the following org headers:
 
 ** Learn more
 
-To learn more about Imagine and what I(Jesse Kelly) do feel free to check out my blog at [[jessekelly.tk][jessekelly.tk]] or my [[github.com/jessekelly881][Github Page]].
+To learn more about Imagine and what I(Jesse Kelly) do feel free to check out my [[https://www.jessekelly.tk][Blog]] or my [[https://www.github.com/jessekelly881][Github]]
 
 * Imagine supports...
 
@@ -34,7 +34,7 @@ To learn more about Imagine and what I(Jesse Kelly) do feel free to check out my
 
 ** Links
 
-[[jessekelly.tk][My Blog]]
+[[https://www.jessekelly.tk][jessekelly.tk]]
 
 
 ** Images(Which are responsive!)
