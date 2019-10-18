@@ -14,6 +14,13 @@
 
     --font-normal: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";
     --font-headings: 'Elsie', cursive;
+
+    --font-size-1: 33.57px;
+    --font-size-2: 26.86px;
+    --font-size-3: 21.48px;
+    --font-size-4: 17.19px;
+
+    --font-size-small: 11px;
 }
 
 /* Selection color */
@@ -34,12 +41,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Scaled font sizes */
-h1{font-size: 33.57px;}
-h2{font-size: 26.86px;}
-h3{font-size: 21.48px;}
-h3{font-size: 17.19px;}
-h4{font-size: 17.19px;}
-h5{font-size: 17.19px;}
+h1{font-size: var(--font-size-1);}
+h2{font-size: var(--font-size-2);}
+h3{font-size: var(--font-size-3);}
+h3{font-size: var(--font-size-4);}
+h4{font-size: var(--font-size-4);}
+h5{font-size: var(--font-size-4);}
 
 h1 > .subtitle{
     font-size: 21.48px;
@@ -48,7 +55,7 @@ h1 > .subtitle{
 /* Normal text style(including code) */
 p, pre, ol, ul, table, code{
     color: #444;
-    font-size: 17.19px;
+    font-size: var(--font-size-4);
     font-family: var(--font-normal)
 }
 
@@ -142,7 +149,7 @@ blockquote{
     margin-top: 5px;
     display: block;
     color: var(--color-soft-white);
-    font-size: 11px;
+    font-size: var(--font-size-small);
     font-family: var(--font-normal)
 
 }
