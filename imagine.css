@@ -46,7 +46,7 @@ h1 > .subtitle{
 }
 
 /* Normal text style(including code) */
-p, pre, ol, ul, table{
+p, pre, ol, ul, table, code{
     color: #444;
     font-size: 17.19px;
     font-family: var(--font-normal)
@@ -155,4 +155,8 @@ blockquote{
     height: auto;
     padding: 1px 5px;
     margin: 1px;
+}
+
+.underline{
+    text-decoration: underline;
 }

@@ -81,3 +81,5 @@ Albert Einstein
 ** TODO An item that needs done
 ** DONE An item that is done
 ** Tags                                                               :tag1:tag2:
+** Font styling
+*Bold* /italic/ _underlined_ =verbatim= ~code~ +strike-through+
