@@ -1,5 +1,6 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil num:nil html-style:nil
+#+HTML_HEAD: <base target="_blank">
 
 #+Title: Imagine
 #+SUBTITLE: Org mode meets professional web design
@@ -11,13 +12,21 @@ Imagine is a css blog theme designed to work seamlessly with org mode. Imagine i
 To use Imagine simply include the following org headers:
 
 #+BEGIN_SRC org
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="blog.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil num:nil html-style:nil
 #+END_SRC
 
 ** Learn more
 
 To learn more about Imagine and what I(Jesse Kelly) do feel free to check out my [[https://www.jessekelly.tk][Blog]] or my [[https://www.github.com/jessekelly881][Github]]
+
+** If you like Imagine you might also like...
+
+[[https://jessekelly881-rethink.surge.sh/][Rethink]]: The cousin of Imagine based on HTML5 Up's [[https://html5up.net/story][Story]] also targeting org mode.
+
+** Disclaimer
+
+I work on these themes in my spair time andI offer them to the world for free. I love org mode and I wish there were more themes like this available. If you know css and would like to help build amazing websites with org mode and emacs please feel free to contribute and throw me some code. I always appreciate it!
 
 * Imagine supports...
 
@@ -33,7 +42,6 @@ To learn more about Imagine and what I(Jesse Kelly) do feel free to check out my
 - C
 
 ** Links
-
 [[https://www.jessekelly.tk][jessekelly.tk]]
 
 
