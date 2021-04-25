@@ -1,140 +1,174 @@
-@import url('https://fonts.googleapis.com/css?family=Elsie&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;1,200;1,300;1,400&display=swap");
 
 /* Variables. Feel free to edit these! */
 :root {
-    --color-primary: #028090;
-    --color-secondary: #00A896;
+  --color-primary: #028090;
+  --color-black: #0f0f0f;
+  --color-secondary: #00a896;
 
-    --color-soft-white: #FFFFF0;
+  --color-special-todo: #790604;
 
-    --color-soft-black: #444;
-    --color-hard-black: #222;
+  --font-primary: "Raleway", sans-serif;
+  --font-headings: "Elsie", cursive;
 
-    --color-special-todo: #790604;
+  --font-size-1: 2.488rem;
+  --font-size-2: 2.074rem;
+  --font-size-3: 1.728rem;
+  --font-size-4: 1.44rem;
 
-    --font-normal: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman";
-    --font-headings: 'Elsie', cursive;
-
-    --font-size-1: 33.57px;
-    --font-size-2: 26.86px;
-    --font-size-3: 21.48px;
-    --font-size-4: 17.19px;
-
-    --font-size-small: 11px;
+  --font-size-small: 0.95rem;
+  --font-size-normal: 1.1rem;
 }
 
 /* Selection color */
 ::selection {
-    background-color: var(--color-primary);
-    color: var(--color-soft-white);
+  background-color: var(--color-primary);
+  color: white;
 }
 
-/* Remove outer padding */
-html, body{
-    margin: 0;
+* + *:not(li) {
+  margin-top: 1em;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-normal);
+  padding-bottom: 2rem;
+}
+
+a {
+  -webkit-transition: filter 0.4s;
+  transition: filter 0.4s;
+  color: var(--color-primary);
+}
+
+a:link,
+a:visited {
+  color: var(--color-primary);
+}
+
+a:hover {
+  filter: brightness(70%);
+}
+
+a:active {
+  filter: brightness(70%);
+}
+
+pre,
+small {
+  font-size: var(--font-size-small);
+}
+
+pre {
+  padding: 1rem calc(clamp(1rem, 5%, 2rem) - 1rem);
+}
+
+blockquote {
+  padding: 1px calc(clamp(2rem, 5%, 3rem) - 1rem);
 }
 
 /* Heading styles */
-h1, h2, h3, h4, h5, h6{
-    color: var(--color-hard-black);
-    font-family: var(--font-headings)
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-family: var(--font-headings);
 }
 
 /* Scaled font sizes */
-h1{font-size: var(--font-size-1);}
-h2{font-size: var(--font-size-2);}
-h3{font-size: var(--font-size-3);}
-h3{font-size: var(--font-size-4);}
-h4{font-size: var(--font-size-4);}
-h5{font-size: var(--font-size-4);}
-
-h1 > .subtitle{
-    font-size: 21.48px;
+h1 {
+  font-size: var(--font-size-1);
+}
+h2 {
+  font-size: var(--font-size-2);
+}
+h3 {
+  font-size: var(--font-size-3);
+}
+h3 {
+  font-size: var(--font-size-4);
+}
+h4 {
+  font-size: var(--font-size-4);
+}
+h5 {
+  font-size: var(--font-size-4);
 }
 
-/* Normal text style(including code) */
-p, pre, ol, ul, table, code{
-    color: #444;
-    font-size: var(--font-size-4);
-    font-family: var(--font-normal)
-}
-
-/* Better anchor tags */
-a{
-    color: inherit;
-}
-
-a:hover{
-    color: var(--color-secondary);
+h1 > .subtitle {
+  font-size: 21.48px;
 }
 
 /* Force footer to bottom and center */
-#postamble{
-    text-align: center;
-    width: 100%;
+#postamble {
+  text-align: center;
+  width: 100%;
 }
 
-#postamble > p{
-    display: inline;
+#postamble > p {
+  display: inline;
 }
 
-.title{
-   padding: 2vh 5vw;
+.title {
+  padding: 2vh 5vw;
 }
-
 
 /* Responsive images */
-img{
-    max-width: 100%;
-    height: auto;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Responsive code blocks and tables */
-pre, .outline-text-2, .outline-text-3, outline-text-4{
-    max-width: 100%;
-    overflow-x: auto;
+pre,
+.outline-text-2,
+.outline-text-3,
+outline-text-4 {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
-/* Responsive content positioning */
-@media only screen and (min-width: 750px) /* Large screens */
-{
-    .outline-2{
-        padding: 2vh 20vw;
-    }
-
+.outline-2 {
+  padding: 2vh calc(max(1rem, 10%) - 1rem);
 }
-
-@media only screen and (max-width: 750px) /* Small screens */
-{
-    .outline-2{
-        padding: 2vh 5vw;
-    }
-}
-
 
 /* Code blocks */
-.org-keyword{
-    color: var(--color-primary);
+.org-keyword {
+  color: var(--color-primary);
 }
 
-.org-rainbow-delimiters-depth-1{
-    color: var(--color-secondary);
+.org-rainbow-delimiters-depth-1 {
+  color: var(--color-secondary);
 }
 
-.org-org-meta-line{
-    color: var(--color-primary);
+.org-org-meta-line {
+  color: var(--color-primary);
 }
-blockquote{
-    border-left:5px solid var(--color-primary);
-    padding-left: 10px;
-}
-
-.todo{
-    color: var(--color-special-todo);
+blockquote {
+  border-left: 5px solid var(--color-primary);
+  margin-left: calc(clamp(1rem, 5%, 1.5rem) - 0.5rem);
 }
 
-.done{
-    color: var(--color-primary);
+.todo {
+  color: var(--color-special-todo);
+}
+
+p {
+  max-width: 70ch;
+}
+
+.done {
+  color: var(--color-primary);
 }
 
 /* Tags.
@@ -142,27 +176,30 @@ blockquote{
    They are exported as a span with class "tag" containing each
    of the tags in its own span with class and contents equal to
    the tags name. This is actually really useful as it allows
-   for targeting both the "tag group" and each tag individually */
+   for targeting both the "tag individually */
 
-.tag{
-    margin-top: 5px;
-    display: block;
-    color: var(--color-soft-white);
-    font-size: var(--font-size-small);
-    font-family: var(--font-normal)
-
+.tag {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  color: white;
+  font-size: 0.8rem;
+  font-family: var(--font-normal);
 }
 
-.tag > span{
-    background-color: var(--color-secondary);
-    text-transform: uppercase;
-    border-radius: 2px;
-    width: fit-content;
-    height: auto;
-    padding: 1px 5px;
-    margin: 1px;
+.tag > span {
+  display: block;
+  background-color: var(--color-secondary);
+  text-transform: uppercase;
+  border-radius: 2px;
+  width: fit-content;
+  padding: 4px 10px;
+  margin: 0;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.08),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
 }
 
-.underline{
-    text-decoration: underline;
+.underline {
+  text-decoration: underline;
 }
